@@ -44,8 +44,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _settings:
-  - Fish: {fileID: -4418399301532517366, guid: b20b05122a9d9854291f2fc7417195af, type: 3}
+  - Fish: {fileID: 8980683773791556646, guid: d167736574f0ec044a40e0ba4e69cdc0, type: 3}
     Quantity: 2
-  - Fish: {fileID: 5682475457571023790, guid: 82ccd6ce0eb4fbe4daf611feeca8fccf, type: 3}
-    Quantity: 3
   _spawner: {fileID: 0}
