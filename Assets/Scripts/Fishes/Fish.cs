@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class Fish : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Outline _outline;
+
+    public void ShowOutLine()
     {
-        
+        _outline.OutlineWidth = 10f;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void HideOutLine()
     {
-        
+        _outline.OutlineWidth = 0f;
     }
+
 }

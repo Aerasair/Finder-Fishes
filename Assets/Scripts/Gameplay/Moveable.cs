@@ -10,7 +10,7 @@ public class Moveable : MonoBehaviour
     {
         _points = FindObjectOfType<PointsCollections>();
         _endPoint = _points.GetRandomPoint();
-        transform.DOMove(_endPoint.transform.position, 3);
+        transform.DOMove(_endPoint.transform.position, 4);
         transform.DOLookAt(_endPoint.transform.position, 1);
     }
 
@@ -23,7 +23,7 @@ public class Moveable : MonoBehaviour
                 _endPoint = _points.GetRandomPointExecptOne(_endPoint);
                 _move.Kill();
                 _rotate.Kill();
-                _move  =  transform.DOMove(_endPoint.transform.position, 3);
+                _move  =  transform.DOMove(_endPoint.transform.position, 4);
                 _rotate = transform.DOLookAt(_endPoint.transform.position, 1);
             }
         }

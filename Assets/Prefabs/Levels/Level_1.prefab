@@ -46,4 +46,8 @@ MonoBehaviour:
   _settings:
   - Fish: {fileID: 8980683773791556646, guid: d167736574f0ec044a40e0ba4e69cdc0, type: 3}
     Quantity: 2
+  - Fish: {fileID: 3019820738686860337, guid: ba8174c7b34eb1a4486d7b0c0936ec4b, type: 3}
+    Quantity: 3
   _spawner: {fileID: 0}
+  _targetText: Find all the same fish
+  _numlvl: 1

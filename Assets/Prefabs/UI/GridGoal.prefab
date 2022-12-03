@@ -456,7 +456,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 30.243698, y: -27.249603}
+  m_AnchoredPosition: {x: 30.243652, y: -27.249603}
   m_SizeDelta: {x: -60.8267, y: -54.4993}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &9001733528672260385
@@ -481,7 +481,7 @@ MonoBehaviour:
   m_StartAxis: 0
   m_CellSize: {x: 100, y: 113.58}
   m_Spacing: {x: 0, y: 17.3}
-  m_Constraint: 1
+  m_Constraint: 2
   m_ConstraintCount: 1
 --- !u!114 &6643955322455656904
 MonoBehaviour:
@@ -495,6 +495,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30def1d4b4a0edc4da0c98f87cbd214a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _slider: {fileID: 0}
+  _targetText: {fileID: 0}
 --- !u!1 &3683768521718500838
 GameObject:
   m_ObjectHideFlags: 0

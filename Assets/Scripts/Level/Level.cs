@@ -1,14 +1,21 @@
 using System.Collections.Generic;
 using System.Linq;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Level : MonoBehaviour
 {
     [SerializeField] private LevelSetting[] _settings;
     [SerializeField] private Spawner _spawner;
-
-    public LevelSetting[] Settings => _settings;
+    [SerializeField] private string _targetText;
+    [SerializeField] private int _numlvl;
     private IEnumerable<Fish> fishes;
+
+    
+    public LevelSetting[] Settings => _settings;
+    public string TargetText => _targetText;
+    public int Numlvl => _numlvl;
+
 
     private void Start()
     {
@@ -25,5 +32,6 @@ public class Level : MonoBehaviour
             f.gameObject.SetActive(false);
         }
     }
+
 }
 
